@@ -1,5 +1,5 @@
 ```
-cc -shared a.out
+clang -shared lib.c
 deno run --allow-ffi --unstable main.ts
 ```
 
